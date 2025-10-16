@@ -18,6 +18,10 @@ All experiments are implemented in the Jupyter/Colab notebook.
 
 No additional setup is required outside the notebook.
 
+## How to see the code/notebook without downloading it
+
+You can open the code.ipynb in this Github repo or can follow this link https://colab.research.google.com/drive/1xHbVs5-YxtDu9lbh3CVxJy0wwGTSdkzi?usp=sharing to the Google Colab link 
+
 ## Repository Structure
 ```├── data/ # Dataset (raw dataset contains train and test dataset)
 ├── code.ipynb # Google Colab notebook with all code & experiments
