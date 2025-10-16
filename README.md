@@ -1,9 +1,22 @@
 # DSA4213 Assignment 3
 
 ## Overview
-This repository contains the implementation for **Assignment 3** of the NUS DSA4213 module 
-The project explores modern NLP methods by applying them to a downstream task, including dataset preparation, model fine-tuning, evaluation, and error analysis.
-Dataset choice is **AG News dataset**. _Link to the dataset_: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data
+This repository contains the implementation for **Assignment 3** of the NUS DSA4213 module . The project explores modern NLP methods by applying them to a downstream task, including dataset preparation, model fine-tuning, evaluation, and error analysis.Dataset choice is **AG News dataset**. _Link to the dataset_: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data
+
+## How to Reproduce
+
+All experiments are implemented in the Jupyter/Colab notebook.
+
+1. Open [`code.ipynb`](./code.ipynb) in **Google Colab**.
+2. Download the datasets from the link I provided and add it to "/content/drive/MyDrive/assignment3/data". You have to create a new folder named _assignment3_, then created a new folder named _data_ inside it, then upload train.csv and test.csv in the _data_ folder
+3. Run all cells from top to bottom. The notebook will:
+   - Install required dependencies
+   - Download dataset automatically (or provide a link if manual download is needed)
+   - Preprocess data
+   - Train models
+   - Evaluate and generate results
+
+No additional setup is required outside the notebook.
 
 ## Repository Structure
 ```├── data/ # Dataset (raw dataset contains train and test dataset)
