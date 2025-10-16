@@ -9,7 +9,8 @@ Dataset choice is **AG News dataset**. _Link to the dataset_: https://www.kaggle
 ```├── data/ # Dataset (raw dataset contains train and test dataset)
 ├── code.ipynb # Google Colab notebook with all code & experiments
 ├── report.pdf # Written report (PDF)
-└── README.md # This file```
+└── README.md # This file
+```
 
 ## Dataset
 - **Domain**: Media
