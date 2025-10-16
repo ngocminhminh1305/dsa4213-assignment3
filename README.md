@@ -3,13 +3,13 @@
 ## Overview
 This repository contains the implementation for **Assignment 3** of the NUS DSA4213 module 
 The project explores modern NLP methods by applying them to a downstream task, including dataset preparation, model fine-tuning, evaluation, and error analysis.
-Dataset choice is **AG News dataset**. Link to the dataset:_ https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data_
+Dataset choice is **AG News dataset**. _Link to the dataset_: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data
 
 ## Repository Structure
-├── data/ # Dataset (raw dataset contains train and test dataset)
+```├── data/ # Dataset (raw dataset contains train and test dataset)
 ├── code.ipynb # Google Colab notebook with all code & experiments
 ├── report.pdf # Written report (PDF)
-└── README.md # This file
+└── README.md # This file```
 
 ## Dataset
 - **Domain**: Media
