@@ -1,7 +1,7 @@
 # DSA4213 Assignment 3
 
 ## Overview
-This repository contains the implementation for **Assignment 3** of the NUS DSA4213 module . The project explores modern NLP methods by applying them to a downstream task, including dataset preparation, model fine-tuning, evaluation, and error analysis.Dataset choice is **AG News dataset**. _Link to the dataset_: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data
+This repository contains the implementation for **Assignment 3** of the NUS DSA4213 module . This assignment fine-tuned pretrained Transformer model (**DistilBERT**) to do topic dectection task, including dataset preparation, model fine-tuning, evaluation, and error analysis. Dataset choice is **AG News dataset**. _Link to the dataset_: https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset/data
 
 ## How to Reproduce
 
@@ -16,14 +16,14 @@ All experiments are implemented in the Jupyter/Colab notebook.
    - Train models
    - Evaluate and generate results
 
-No additional setup is required outside the notebook.
+No additional setup is required outside the notebook. Results (metrics, plots, and saved outputs) will be generated automatically.
 
 ## How to see the code/notebook without downloading it
 
 You can open the code.ipynb in this Github repo or can follow this link https://colab.research.google.com/drive/1xHbVs5-YxtDu9lbh3CVxJy0wwGTSdkzi?usp=sharing to the Google Colab link 
 
 ## Repository Structure
-```├── data/ # Dataset (raw dataset contains train and test dataset)
+```
 ├── code.ipynb # Google Colab notebook with all code & experiments
 ├── report.pdf # Written report (PDF)
 └── README.md # This file
@@ -60,18 +60,3 @@ The notebook includes:
 
 - LoRA reduces trainable parameters while keeping performance close to full fine-tuning.  
 - Misclassifications mostly occur on short or ambiguous texts.  
-
-## Error Analysis
-- Frequent errors involve domain-specific terms and ambiguous wording.  
-- Performance drops on minority classes due to class imbalance.  
-- Suggested improvements:
-  - Data augmentation
-  - Larger pretrained models
-  - Domain-specific embeddings  
-
-## How to Use
-All requirements and code are included inside the **Colab notebook**.  
-To reproduce results:
-1. Open the notebook in Google Colab.
-2. Run all cells in order.
-3. Results (metrics, plots, and saved outputs) will be generated automatically.
